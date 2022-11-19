@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-light {
+    --page-background-color: #f3f4f6;
+    --card-background-color: white;
+    --button-background-color: #2dd4bf;
+    --header-background-color: white;
+}
+
+.theme-dark {
+    --page-background-color: #17181E;
+    --card-background-color: #1F2027;
+    --button-background-color: #5986F9;
+    --header-background-color: #1F2027;
+
+    --text-default-color: white;
+}
